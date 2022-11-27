@@ -234,6 +234,7 @@ img {
 .form-input {
     padding-left: 42px;
 
+    transition: border-color 250ms var(--timing-function);
 }
 
 .form-input:focus,
@@ -258,7 +259,7 @@ img {
 .form-policy {
     display: flex;
     align-items: center;
-    margin-left: 12px;
+    justify-content: center;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
