@@ -29,8 +29,7 @@ textarea {
 
 .list {
     list-style: none;
-    padding: 0;
-    margin: 0;
+
 }
 
 .link {
@@ -142,10 +141,11 @@ img {
 .header-nav__list,
 .header-contacts__list {
     display: flex;
+    
 }
 
 .header-contacts__list {
-    padding-left: 318px;
+    margin-left: 318px;
 }
 
 .header-nav__item {
@@ -393,7 +393,7 @@ img {
     border-radius: 4px;
 }
 
-.modal-btn {
+.btn-close {
     cursor: pointer;
 
     position: absolute;
@@ -411,12 +411,12 @@ img {
 
     transition: fill 250ms var(--timing-function);
 }
-.modal-btn:hover,
-.modal-btn:focus {
+.btn-close:hover,
+.btn-close:focus {
     fill: var(--color-action-btn);
 }
 
-.modal-btn__icon {
+.btn-close__icon {
     position: absolute;
     bottom: 9px;
     left: 9px;
@@ -431,7 +431,7 @@ img {
     min-width: 200px;
     padding: 10px 20px;
 
-    font-family: var(--first-font)var(--first-font);
+    font-family: var(--first-font);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -860,13 +860,13 @@ img {
 .footer-form__btn:focus {
     background-color: var(--color-action-btn);
 }
+
 .footer-form__icon {
     position: absolute;
     right: 28px;
     
     height: 24px;
     width: 24px;
-
 }
 /* FOOTER-FINISH */
 
